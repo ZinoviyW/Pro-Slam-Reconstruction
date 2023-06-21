@@ -1,0 +1,6 @@
+p = phantom(512);
+freq = fft2(p);
+figure
+hold on
+imagesc(p)
+plot(abs)
